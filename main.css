@@ -1,0 +1,43 @@
+/********************************
+CATCH-ALLS, ROOT APPLIED, INITIAL
+********************************/
+:root {
+	font-family: "Avenir", "Helvetica", "Arial", sans-serif;
+	box-sizing: border-box;	
+	
+	/*VARIABLES*/
+	--brandingprimary: #00b74f;
+		--brandingprimary_shadedown: #008539;
+	--brandingsecondary: #ff48b0;
+}
+html {
+	height: 100%;
+}
+body {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	margin: auto;
+	font-size: 12pt;
+}
+
+
+
+
+/*********************
+GENERAL TAG FORMATTING
+*********************/
+
+/*HEADERS*/
+h1, h2, h3 {
+	color: var(--brandingprimary);
+}
+h1 {
+	margin: auto;
+	text-align: center;
+	font-style: italic;
+	font-size: 80pt;
+}
